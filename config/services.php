@@ -29,5 +29,8 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    $stripe = [
+  "secret_key"      => "sk_test_sLh7twQIgvvKacpeXIvnHygX0066qZvqId",
+  "publishable_key" => "pk_test_TYooMQauvdEDq54NiTphI7jx"],
 
 ];
