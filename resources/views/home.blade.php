@@ -10,7 +10,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
             <a class="navbar-brand" href="#">
-        <img src="TimeStamp.png" alt="TimeStamp" style = "width: 60px">
+        <img src="https://image.flaticon.com/icons/png/512/1674/1674929.png" alt="TimeStamp" style = "width: 60px">
             </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,13 @@
               <a style = "font-size: 25px" class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a style = "font-size: 25px" class="nav-link" href="#">Projects</a>
+              <a style = "font-size: 25px" class="nav-link" href="/business">Register</a>
             </li>
             <li class="nav-item">
-              <a style = "font-size: 25px" class="nav-link" href="#">Invoice</a>
+              <a style = "font-size: 25px" class="nav-link" href="/paymentselection">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a style = "font-size: 25px" class="nav-link" href="/payment">Payment</a>
             </li>
             <li class="nav-item">
                 <a style = "font-size: 25px" class="nav-link" href="#">Logout</a>
@@ -44,25 +47,25 @@
   
     <div class="card col-sm-4"  style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Business Register</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Business Register</h6>
+              <p class="card-text">Get started and register your business here!</p>
         
             </div>
     </div>
     <div class="card col-sm-4"  style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Plan Selection</h5>
+              <h6 class="card-subtitle mb-2 text-muted">plans</h6>
+              <p class="card-text">Let's choose a plan that fits your needs.</p>
            
             </div>
     </div>
     <div class="card col-sm-4"  style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Payment Portal</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Pay Here</h6>
+              <p class="card-text">Pay your monthly payment here.</p>
              
             </div>
     </div>

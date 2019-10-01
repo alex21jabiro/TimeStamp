@@ -17,4 +17,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/business', 'BusinessController@index');
+Route::get('/payment', 'PaymentController@index');
+Route::get('/paymentselection', 'PaymentSelectionController@index');
+
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/Payment', function () {
+    return view('Payment');
+});
+?>
