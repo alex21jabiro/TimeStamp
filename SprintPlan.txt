@@ -1,0 +1,8 @@
+so for next sprint we need to work on:
+
+1) employee login
+2) separating businesses pages
+3) limiting employee registration
+4) admin dashboard
+5) audit trails
+6) employee dashboard
