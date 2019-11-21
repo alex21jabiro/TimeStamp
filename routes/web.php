@@ -36,30 +36,33 @@
 // OLD CODE STARTS
 
 Route::get('/', function () {
- return view('welcome');
+ return redirect('/admin');
 });
+
 
 Auth::routes();
 
-// Business Registration (Business/index.blade.php)  
-Route::get('/business', 'BusinessController@index');
-Route::post('/business', 'BusinessController@store');
-//
+// // Business Registration (Business/index.blade.php)  
+// Route::get('/business', 'BusinessController@index');
+// Route::post('/business', 'BusinessController@store');
+// //
 
-// User Registration (UserRegistration/index.blade.php)
-//Route::get('/userregistration', 'UserRegistrationController@index');
-//Route::post('/userregistration', 'UserRegistrationController@store');
+// // User Registration (UserRegistration/index.blade.php)
+// //Route::get('/userregistration', 'UserRegistrationController@index');
+// //Route::post('/userregistration', 'UserRegistrationController@store');
 
-Route::resource('employees','EmployeeController');
-//
+// Route::resource('employees','EmployeeController');
+// //
 
 
-Route::get('/payment', 'PaymentController@index');
-Route::get('/paymentselection', 'PaymentSelectionController@index');
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/payment', 'PaymentController@index');
+// Route::get('/paymentselection', 'PaymentSelectionController@index');
+// Route::get('/home', 'HomeController@index')->name('home');
 
-// Users Allowed
-Route::post('/paymentselection', 'PaymentSelectionController@p1');
+// // Users Allowed
+// Route::post('/paymentselection', 'PaymentSelectionController@p1');
+
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
