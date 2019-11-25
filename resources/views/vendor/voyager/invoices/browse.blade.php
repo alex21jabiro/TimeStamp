@@ -166,7 +166,7 @@
 <!--        }-->
 <!--    }-->
     
-    /** RTL **/
+    <!--/** RTL **/-->
 <!--    .rtl {-->
 <!--        direction: rtl;-->
 <!--        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;-->
@@ -488,7 +488,7 @@
                                 </tbody>
                             </table>
                             
-                             Comment out above to remove all table components 
+                             <!--Comment out above to remove all table components -->
                             
                         </div>
                         @if ($isServerSide)

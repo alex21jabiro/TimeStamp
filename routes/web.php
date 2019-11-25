@@ -66,6 +66,9 @@ Auth::routes();
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+    
+    //OVERWRITING INVOICE ROUTE, THIS IS WITHOUT A DOUBT 100% NOT THE WAY TO DO THIS
+Route::post('admin/invoice', ['uses' => 'invoice@postLogin', 'as' => 'postlogin']);
    
 });
 
